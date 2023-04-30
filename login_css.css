@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full_page
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('bg-2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.faded_box{
+    margin: 10% auto;
+    width: 380px;
+    height: 350px;
+    position: relative;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px 3px;
+}
+.faded_box h2 {
+    margin-top: 30px ;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+}
+#login {
+    left: 50px;
+}
+#login input{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12;
+}
+.input_login {
+    top: 100px;
+    position: absolute;
+    width: 280px;
+}
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #fdfdfd;
+    background: transparent;
+}
+.faded_box2 {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 200px;
+    height: 50px;
+    background: rgba(73, 72, 72, 0.699);
+    text-align: center;
+}
+.img {
+    width: 70px;
+    margin-left: 200px;
+    margin-top: -50px;
+    filter: brightness(300%);
+    cursor: pointer;  
+}
+.capi {
+    font-size: 30;
+    letter-spacing: 13px;
+    color: #fff;
+    font-family: cursive;
+}
+.submit_button {       
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    margin-left: 25px;                
+    background: #F3C693;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}

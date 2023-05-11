@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <!-- External CSS -->
+        <link rel="stylesheet" type="text/css" href="login_css.css">
+        <!-- External JS -->
+        <script src="login_js.js"></script>
+    </head>
+    <body  onload='generate_captha(6)'><!-- onload function helps to call generate_captha() function when page loads -->
+        <div class="full_page">
+            <div class="faded_box">
+                <h2>Login</h2>
+                <form id='login' class="input_login" onsubmit="return validate()" action="javascript:void(0);">
+                    <input type = "text" class="input-field" id="user" placeholder="User name" >
+                    <div class="faded_box2">
+                        <span class="capi" id="captha"></span>
+                        <img class="img" src="regenerate.png" onclick="generate_captha(6)">
+                    </div>
+                    
+                    <input type="text" class="input-field" id="c" placeholder="Enter captcha">
+                    <span style="color: rgb(255, 0, 0);margin-top: 10px;" id="span"></span>
+                    <button type="submit" class="submit_button">Log in</button>
+                </form> 
+            </div>
+        </div>
+    </body>
+</html>

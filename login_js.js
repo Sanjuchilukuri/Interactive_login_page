@@ -29,7 +29,7 @@ function validate()
     else if(a_capp== capp) // If login validation is successful
     {
         // Navigate to the new page
-        window.location.replace("tic-tac-toe.html");
+        window.location.replace("https://sanjuchilukuri.github.io/portfolio/");
         return true;
     }
 }
